@@ -1,0 +1,34 @@
+{
+  "5": [
+    {"id":"micro-mobility-neck","title":"Neck & Shoulder Reset","minutes":5,"intensity":"low","focus":"mobility","space":"office","equipment":[],"beginnerFriendly":true,"tags":["post-meeting","decompress"]},
+    {"id":"micro-core-brace","title":"Core Bracing Drill","minutes":5,"intensity":"low","focus":"strength","space":"home","equipment":[],"beginnerFriendly":true,"tags":["core"]}
+  ],
+  "10": [
+    {"id":"quick-cardio-steps","title":"Fast Step Intervals","minutes":10,"intensity":"moderate","focus":"cardio","space":"office","equipment":[],"beginnerFriendly":true,"tags":["energizer"]},
+    {"id":"mobility-hips-ham","title":"Hip & Hamstring Flow","minutes":10,"intensity":"low","focus":"mobility","space":"home","equipment":[],"beginnerFriendly":true,"tags":["flexibility"]}
+  ],
+  "15": [
+    {"id":"bodyweight-strength-a","title":"Bodyweight Strength A","minutes":15,"intensity":"moderate","focus":"strength","space":"home","equipment":["mat"],"beginnerFriendly":true,"tags":["compound"]},
+    {"id":"cardio-shadowbox","title":"Shadow Boxing Burst","minutes":15,"intensity":"high","focus":"cardio","space":"home","equipment":[],"beginnerFriendly":false,"tags":["hiit"],"constraints":{"avoidLate":true}}
+  ],
+  "20": [
+    {"id":"strength-push-pull","title":"Push Pull Circuit","minutes":20,"intensity":"moderate","focus":"strength","space":"gym","equipment":["dumbbells"],"beginnerFriendly":true},
+    {"id":"mobility-full-chain","title":"Full Chain Mobility","minutes":20,"intensity":"low","focus":"mobility","space":"home","equipment":[],"beginnerFriendly":true}
+  ],
+  "30": [
+    {"id":"tempo-run-progress","title":"Progressive Tempo Run","minutes":30,"intensity":"high","focus":"cardio","space":"gym","equipment":["treadmill"],"beginnerFriendly":false,"constraints":{"avoidLate":true}},
+    {"id":"strength-lower-emphasis","title":"Lower Body Strength","minutes":30,"intensity":"moderate","focus":"strength","space":"gym","equipment":["barbell"],"beginnerFriendly":false,"constraints":{"requiresFreshLegs":true}}
+  ],
+  "45": [
+    {"id":"hybrid-conditioning","title":"Hybrid Conditioning","minutes":45,"intensity":"high","focus":"cardio","space":"gym","equipment":["rower","kettlebell"],"beginnerFriendly":false,"constraints":{"avoidLate":true,"requiresFreshLegs":true}},
+    {"id":"full-strength-upper-lower","title":"Upper & Lower Split","minutes":45,"intensity":"moderate","focus":"strength","space":"gym","equipment":["dumbbells"],"beginnerFriendly":false}
+  ],
+  "60": [
+    {"id":"endurance-z2","title":"Zone 2 Endurance","minutes":60,"intensity":"moderate","focus":"cardio","space":"gym","equipment":["bike"],"beginnerFriendly":true},
+    {"id":"mobility-deep-reset","title":"Deep Mobility Reset","minutes":60,"intensity":"low","focus":"mobility","space":"home","equipment":[],"beginnerFriendly":true}
+  ],
+  "90": [
+    {"id":"long-run","title":"Long Run Base","minutes":90,"intensity":"moderate","focus":"cardio","space":"gym","equipment":["treadmill"],"beginnerFriendly":false,"constraints":{"requiresFreshLegs":true}},
+    {"id":"strength-full-marathon","title":"Full Body Strength Marathon","minutes":90,"intensity":"high","focus":"strength","space":"gym","equipment":["barbell","bench"],"beginnerFriendly":false,"constraints":{"requiresFreshLegs":true,"avoidLate":true}}
+  ]
+}

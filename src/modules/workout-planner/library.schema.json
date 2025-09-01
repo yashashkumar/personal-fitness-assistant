@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WorkoutLibrary",
+  "type": "object",
+  "patternProperties": {
+    "^(5|10|15|20|30|45|60|90)$": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "intensity", "focus", "space", "equipment", "beginnerFriendly", "minutes"],
+        "properties": {
+          "id": { "type": "string" },
+            "title": { "type": "string" },
+            "minutes": { "type": "integer" },
+            "intensity": { "type": "string", "enum": ["low", "moderate", "high"] },
+            "focus": { "type": "string", "enum": ["cardio", "strength", "mobility"] },
+            "space": { "type": "string", "enum": ["home", "office", "gym"] },
+            "equipment": { "type": "array", "items": {"type": "string"} },
+            "beginnerFriendly": { "type": "boolean" },
+            "tags": { "type": "array", "items": { "type": "string" } },
+            "constraints": { "type": "object", "properties": { "avoidLate": { "type": "boolean" }, "requiresFreshLegs": { "type": "boolean" } }}
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
